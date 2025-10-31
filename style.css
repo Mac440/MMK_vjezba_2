@@ -1,0 +1,105 @@
+
+body {
+  font-family: 'BBH Sans Bartle', sans-serif;
+  background-color: #e6faff; 
+  color: #1a1a1a;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+
+header {
+  background-color: #ff00ff; 
+  padding: 28px 40px;
+  margin: 0;
+}
+
+h1 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.9rem;
+  margin: 0;
+}
+
+
+main {
+  padding: 0 40px;
+  margin-top: 20px;
+}
+
+
+section {
+  background-color: #ffffff;
+  border: 3px solid #00ffff; 
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 24px;
+  width: 80%;              
+  
+}
+
+
+h2, h3, h4 {
+  color: #ff00ff; 
+  font-weight: 600;
+  margin-top: 0;
+}
+
+/
+p {
+  margin: 0 0 12px 0;
+  color: #1a1a1a;
+}
+
+
+a {
+  color: #00ffff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff00ff;
+  text-decoration: underline;
+}
+
+
+article {
+  background-color: #f9e6ff; 
+  border-left: 4px solid #ff00ff;
+  padding: 14px;
+  margin-top: 12px;
+  border-radius: 6px;
+}
+
+
+ul, ol {
+  margin-left: 18px;
+  color: #1a1a1a;
+  padding-left: 20px;
+}
+
+ul li::marker {
+  color: #00ffff; 
+}
+
+ol li::marker {
+  color: #ff00ff;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 20px; 
+  width: 80%;
+  margin: 0 auto; 
+}
+
+.box {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
